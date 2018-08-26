@@ -8,7 +8,7 @@ using RedditSharp;
  * 
  * 	RedditSharp is developed by SirCmpwn. 
  * 
- *  SoLRecommendationsBot is developed by Brad Cross (/u/genericthrowawayyes)
+ *  SoLRecommendationsBot is developed by Charlotte Cross (/u/charlottesdesire)
  *  This program is open-source. According to the license set by SirCmpwn and myself, this program may be
  *  modified, redistributed and used commercially, as long as credit is given to both SirCmpwn and myself.
  *  
@@ -59,7 +59,7 @@ namespace SoLRecommendationBot
 		}
 		public static void postComment()
 		{
-			var subreddit = reddit.GetSubreddit ("/r/anime"); //Here you can change the subreddit and what-not
+			var subreddit = reddit.GetSubreddit ("/r/"); //Here you can change the subreddit and what-not
 			int count = 0, counters = 30; 
 			// Count is how many threads there are that match the description
 			// Counters is how many threads should be searched
